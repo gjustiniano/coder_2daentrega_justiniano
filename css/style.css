@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+  .logo2 img {
+
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+  
+  }
+
+
+main {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 100px;
+  
+}
+
+  #normal {
+    width: 100%;
+    height: auto;
+    border: 3px solid rgb(177, 14, 36);
+    border-radius: 10px;
+    background-color: rgb(47, 50, 50);
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  
+  
+a {
+  color: rgb(255, 255, 255); 
+  text-decoration: none; }
+  
+  a:hover {
+    color: #ff0000 !important; }
+   .calen {
+      
+    text-align: center;
+      font-size: 0.7rem;
+      padding-top: 10px;
+      line-height: 50px;
+      background-color: #ffffff;
+      color: #fff; }
+   
+      .calen form {
+      padding-top: 20px;
+
+
+    }
+      .calen a {
+    color: rgb(220, 9, 9) !important; }
+    .calen a:hover {
+      color: rgb(60, 58, 58); }
+    .calen li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 0.8rem;
+        position: relative; }
+
+    nav {
+      text-align: center;
+      font-size: 0.7rem;
+      padding-top: 10px;
+      line-height: 15px;
+      background-color: #ffffff;
+      color: #fff; }
+    nav a {
+    color: rgb(220, 9, 9) !important; }
+    nav a:hover {
+      color: rgb(60, 58, 58); }
+      nav li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 0.8rem;
+        font-weight: bold;
+        position: relative; }
+
+      nav img {
+        width: 30px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+      }
+ 
+ 
+/* General */
+body {
+  color: #353535;
+  /*background-image: linear-gradient(to top, #c7e7e7, #f6f6f6); /*color fondo foto*/
+  background-attachment: fixed; }
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem; }
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem; }
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem; }
+
+h4 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 1px; }
+
+p {
+  font-family: "Albert Sans", sans-serif; }
+
+.menu li {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  padding: 4px;
+  text-align: center; }
+
+.logo img {
+  width: 80px; }
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  padding-top: 10px;
+  line-height: 15px;
+  background-color: #ffffff;
+  color: #fff; }
+  footer a {
+    color: rgb(220, 9, 9); }
+    footer a:hover {
+      color: rgb(60, 58, 58) ; }
+  footer li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative; }
+   
+
+centrar {
+  text-align: center; }
+
+
+
+
+
+
