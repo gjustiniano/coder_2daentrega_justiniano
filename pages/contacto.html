@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/img/wine-glass.png">
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<title>Catando Ando</title>
 	
 </head>
@@ -32,51 +33,22 @@
         <p>Completa tus datos y recibi toda la información sobre proximas catas y eventos relacionado con el vino</p>
         <br>
         <p>Esta página es de uso exclusivo para personas mayores de 18 años</p>
-        <br><br>
-            <div class="calen">
-                <ul>
-                    <li>
-                        <div id="normal">
-                            <img src="../assets/img/copas-tonel.jpg" alt="copas tonel" height="300px" >
-                        </div>
-                    </li>
-                    <li>
-                        <div id="normal">
-                            <form class="">
-                                <div class="form-floating mb-3">
-                                    <label for="floatingInput"><i class="fa-regular fa-user"></i> Nombre *</label>
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" required="">
-                                </div>
-							<div class="form-floating mb-3">
-                                <label for="floatingInput"><i class="fa-regular fa-user"></i> Apellido * *</label>
-								<input type="text" class="form-control" id="floatingInput" placeholder="Apellido" required="">
-                            </div>
-							<div class="form-floating mb-3">
-                                <label for="floatingInput"><i class="fa-regular fa-envelope"></i> Email *</label>
-								<input type="email" class="form-control" id="floatingInput" placeholder="direccion@email.com" required="">
-                            </div>
-							<div>
-                        		<label for="fnac">Fecha de Nacimiento *</label>
-                       			<input id="fnac" name="fecha_nac" type="date" required>
-							</div>
-							<div>
-									<label for="origen">Como nos conociste *</label>
-									<select name="orig" id="origen">
-										<option value="Facebook">Facebook</option>
-										<option value="Instagram" selected>Instagram</option>
-										<option value="Vineria">Vineria</option>
-									</select>
-							</div>
-							<div>
-										<input id="enviar" type="submit" value="Enviar">
-										<input id="reset" type="reset" value="Limpiar">
-							</div>
-								
-					    	</form>
-					    </div>
-				    </li>
-                </ul>
-            </div>
+		<form>
+			<div class="mb-3">
+			  <label for="exampleInputEmail1" class="form-label">Email</label>
+			  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			  			</div>
+			<div class="mb-3">
+			  <label for="exampleInputPassword1" class="form-label">Nombre y Apellido</label>
+			  <input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="mb-3 form-check">
+			  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		
+			</div>
+			<button type="submit" class="btn btn-danger">Enviar</button>
+		  </form>
+        
     	</br>
 </main>
 	<!-- inicio de footer --> 
@@ -90,6 +62,8 @@
 		</ul>
 		<br><p>Desarollado <a href="" target="_blank">Gonzalo Justiniano</a></p>
 	</footer>
+	<script src="../js/bootstrap.bundle.min.js">
+    </script> 
 
 </body>
 </html>

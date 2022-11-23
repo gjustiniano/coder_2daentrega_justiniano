@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/img/wine-glass.png">
 	<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 	<title>Catando Ando</title>
 	
 </head>
@@ -28,36 +29,31 @@
 	
 	<!-- cierre de fila logo + nav -->
 	<main>
-		<h2>Calendario</h2>
-			<div class="calen">
-				<ul>
-					<li>
-						<div id="normal">
-							<img src="../assets/img/catas-chica.jpg" height="300px" alt="evento 1"><br>
-							<a>Evento 1</a>
-						</div>
-					</li>
-				<li>
-					<div id="normal">
-						<img src="../assets/img/catas-chica.jpg" height="300px" alt="evento 2"><br>
-						<a>Evento 2</a>
-					</div>
-				</li>
-				<li>
-                    <div id="normal">
-						<img src="../assets/img/catas-chica.jpg" height="300px" alt="evento 3"><br>
-						<a>Evento 3</a>
-					</div>
-                </li>
-                <li>
-                    <div id="normal">
-                    	<img src="../assets/img/catas-chica.jpg" height="300px" alt="evento 4"><br>
-                    	<a>Evento 4</a>
-                	</div>
-                </li>
-			</ul>
-		</div>
-   		</br></br>
+        <h2>Calendario</h2>
+		<div class="card-group">
+			<div class="card">
+              <img src="../assets/img/catas-chica.jpg" class="card-img-top" eight="300px" alt="evento 1"><br>
+			  <div class="card-body">
+				<h5 class="card-title">2 DE DICIEMBRE</h5>
+				<p class="card-text">Curso gratuito "Amigos del vino"</p>
+			  </div>
+			</div>
+			<div class="card">
+                <img src="../assets/img/catas-chica.jpg" class="card-img-top" eight="300px" alt="evento 2"><br>
+                <div class="card-body">
+                  <h5 class="card-title">14 DE DICIEMBRE</h5>
+                  <p class="card-text">Degustacion Bodega Arboleda</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../assets/img/catas-chica.jpg" class="card-img-top" eight="300px" alt="evento 1"><br>
+                <div class="card-body">
+                  <h5 class="card-title">28 DE DICIEMBRE</h5>
+                  <p class="card-text">Cata de vinos a realizarse en el Hotel Hermitage</p>
+                </div>
+              </div>
+		  </div>
+
 	</main>
 	<!-- inicio de footer --> 
 	<footer class="row">
@@ -70,6 +66,7 @@
 		</ul>
 		<br><p>Desarollado <a href="" target="_blank">Gonzalo Justiniano</a></p>
 	</footer>
-
+    <script src="../js/bootstrap.bundle.min.js">
+    </script> 
 </body>
 </html>
